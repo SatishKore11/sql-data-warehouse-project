@@ -24,9 +24,9 @@ This document outlines the naming conventions used for schemas, tables, views, c
 ### Bronze Rules
   - All names must start with the source system name, and table names must match their origin names without renaming.
   - **<sourcesystem>_<entity>**
-    - <sourcesystem>: Name of the source system (e.g., crm, erp).
-    - <entity>: Exact table name from the source system.
-    - Example: crm_customer_info --> Customer information from the CRM system.
+      - <sourcesystem>: Name of the source system (e.g., crm, erp).
+      - <entity>: Exact table name from the source system.
+      - Example: crm_customer_info --> Customer information from the CRM system.
         
 ### Silver Rules
   - All names must start with the source system name, and table names, must match their origin names without renaming.
@@ -38,9 +38,9 @@ This document outlines the naming conventions used for schemas, tables, views, c
 ### Gold Rules
   - All names must be meaningful, business'aligned names for tables, starting with the category prefix.
   - **<category>_<entity>**
-    - <category>: Describes the role of the table, such as dim (dimension) or fact (fact table).
-    - <entity>: Descriptive name of the table, aligned with the business domain (e.g., customers, products, sales).
-    - Examples:
+      - <category>: Describes the role of the table, such as dim (dimension) or fact (fact table).
+      - <entity>: Descriptive name of the table, aligned with the business domain (e.g., customers, products, sales).
+      - Examples:
         - dim_customers --> Dimension table for customer data.
         - fact_sales --> Fact table containing sales transactions.
 
