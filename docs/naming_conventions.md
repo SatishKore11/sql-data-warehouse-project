@@ -4,3 +4,4 @@ This document outlines the naming conventions used for schemas, tables, views, c
 ## Table of Contents 
 
   1. [General Principles](#general-principles)
+  2. [Table Naming Conventions](#table_naming_conventions)
